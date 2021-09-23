@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ivy.project.WealthManagementApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.754 s - in com.ivy.project.WealthManagementApplicationTests

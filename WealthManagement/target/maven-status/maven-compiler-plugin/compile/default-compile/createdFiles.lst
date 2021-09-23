@@ -1,0 +1,15 @@
+com\ivy\project\repository\UserRepository.class
+com\ivy\project\model\User.class
+com\ivy\project\service\CategoryService.class
+com\ivy\project\configuration\WebSecurityConfig.class
+com\ivy\project\service\CustomUserDetails.class
+com\ivy\project\controller\AppController.class
+com\ivy\project\controller\ExpenseController.class
+com\ivy\project\model\Category.class
+com\ivy\project\repository\ExpenseRepository.class
+com\ivy\project\service\CustomUserDetailsService.class
+com\ivy\project\WealthManagementApplication.class
+com\ivy\project\controller\CategoryController.class
+com\ivy\project\model\Expense.class
+com\ivy\project\repository\CategoryRepository.class
+com\ivy\project\service\ExpenseService.class

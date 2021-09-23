@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Edit Expense</title>
+<link rel="stylesheet" type="text/css"
+	href="/webjars/bootstrap/css/bootstrap.min.css" />
+<script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+<script type="text/javascript"
+	src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container text-center">
+		<h1>Edit Expense</h1>
+		<br />
+		<form action="#" th:action="@{/save}" th:object="${expense}"
+			method="post">
+			<table>
+				<tr>
+					<td>Expense ID:</td>
+					<td><input type="text" th:field="*{id}" readonly="readonly" />
+					</td>
+				</tr>
+				<tr>
+					<td>Expense Date:</td>
+					<td><input type="text" th:field="*{expensedate}" /></td>
+				</tr>
+				<tr>
+					<td>Description:</td>
+					<td><input type="text" th:field="*{description}" /></td>
+				</tr>
+				<tr>
+					<td>Location:</td>
+					<td><input type="text" th:field="*{location}" /></td>
+				</tr>
+				<tr>
+					<td>Category:</td>
+					<td><input type="text" th:field="*{category}" /></td>
+				</tr>
+				<tr>
+					<td colspan="2"><button type="submit">Save</button></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
